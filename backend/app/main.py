@@ -1,0 +1,10 @@
+
+from fastapi import FastAPI
+from .database import Base, engine
+from .routers import auth, sweets
+
+Base.metadata.create_all(bind=engine)
+
+app = FastAPI(title="Sweet Shop Management System")
+app.include_router(auth.router)
+app.include_router(sweets.router)
