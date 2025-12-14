@@ -166,14 +166,69 @@ No heavy UI libraries or animations were used to keep the focus on functionality
 
 ---
 
-## 🤖 AI Usage Disclosure
+🤖 My AI Usage
 
-AI tools (ChatGPT) were used for:
-- Architectural guidance
-- Boilerplate generation
-- Test case scaffolding
+AI tools were used intentionally and transparently during the development of this project as part of a modern software development workflow.
 
-All logic, structure, and final decisions were **reviewed, modified, and validated manually**.
+🔧 AI Tools Used
+
+ChatGPT (OpenAI)
+
+🛠️ How I Used AI
+
+I used ChatGPT in the following ways throughout the project:
+
+To brainstorm and validate the overall system architecture, including backend–frontend separation and RESTful API design.
+
+To generate initial boilerplate code for backend components such as FastAPI routers, database models, authentication setup, and dependency wiring.
+
+To assist in writing Pytest test cases, including guidance on structuring tests, covering edge cases, and implementing negative scenarios such as unauthorized (401) and forbidden (403) access.
+
+To review and improve frontend structure, including suggestions for React component organization, Context-based authentication handling, and API integration patterns.
+
+To get feedback on code readability, naming conventions, and general best practices, which I then refined manually.
+
+✍️ Human Review & Ownership
+
+All AI-generated outputs were treated as starting points only.
+I manually reviewed, modified, and extended the code to:
+
+Add proper validation and error handling
+
+Enforce role-based access control (Admin vs User)
+
+Ensure business logic correctness
+
+Improve clarity and maintainability
+
+All final implementation decisions, security logic, testing coverage, and UI behavior were fully owned and verified by me.
+
+🔄 Impact on My Workflow
+
+Using AI significantly improved my productivity by reducing time spent on repetitive setup and boilerplate generation.
+This allowed me to focus more on:
+
+Correctness of functionality
+
+Clean architecture
+
+Comprehensive testing
+
+Meeting all assignment requirements
+
+AI was used as a development assistant, not as a replacement for problem-solving or engineering judgment.
+
+🧾 Transparency & Accountability
+
+I am fully transparent about my AI usage and am comfortable discussing:
+
+Where AI provided assistance
+
+Where manual intervention was required
+
+How I validated and ensured the correctness of the final solution
+
+This approach reflects how I would responsibly use AI tools in a real-world professional software development environment.
 
 ---
 
